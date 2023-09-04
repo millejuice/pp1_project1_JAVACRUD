@@ -44,14 +44,17 @@ public class Word {
         this.meaning = meaning;
     }
 
+    //원하는 format의 문자열 return
     @Override
     public String toString() {
-        return "Word{" +
-                "id=" + id +
-                ", level=" + level +
-                ", word='" + word + '\'' +
-                ", meaning='" + meaning + '\'' +
-                '}';
+        String slevel="";
+        for(int i=0;i<level;i++){
+            slevel += "*";
+        }
+        String str = String.format("%-3s",slevel)
+                +String.format("%8s",word)+" "+meaning;
+        return str;
+
     }
 
     private String meaning;

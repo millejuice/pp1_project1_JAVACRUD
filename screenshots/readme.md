@@ -32,6 +32,11 @@
 <img width="314" alt="스크린샷 2023-09-12 오후 8 26 47" src="https://github.com/millejuice/pp1_project1_JAVACRUD/assets/109461985/6b27696b-2844-41f3-8062-7faf7762886f">
 <br />
 
+* Dictopnary.txt
+
+<img width="314" alt="image" src="https://github.com/millejuice/pp1_project1_JAVACRUD/assets/109461985/c1d9e4d5-26e7-435c-b1b8-700d36892079">
+<br />
+ 
 * Quit
   <br />
 <img width="323" alt="image" src="https://github.com/millejuice/pp1_project1_JAVACRUD/assets/109461985/ed38e605-da2f-426d-8393-5c62404c77a1">

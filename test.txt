@@ -2,3 +2,9 @@
 3|star|별
 3|insect|곤충
 2|wave|파도
+1|bible|성경
+2|food|음식
+1|list|리스트
+2|develop|개발하다
+3|home|집
+2|dolphin|돌고래

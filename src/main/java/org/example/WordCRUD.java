@@ -154,6 +154,7 @@ public class WordCRUD implements ICRUD{
             for(Word one: list){
                 pr.write(one.toFileString() + "\n"); //enter를 입력하지 않기 때문에 직접 입력해줌
             }
+            System.out.println("모든 단어 파일 저장 완료 !!! ");
             pr.close();
         } catch (IOException e) {
             throw new RuntimeException(e);

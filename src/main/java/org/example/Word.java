@@ -52,7 +52,7 @@ public class Word {
             slevel += "*";
         }
         String str = String.format("%-3s",slevel)
-                +String.format("%8s",word)+" "+meaning;
+                +String.format("%16s",word)+" "+meaning;
         return str;
 
     }

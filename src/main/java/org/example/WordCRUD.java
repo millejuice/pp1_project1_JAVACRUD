@@ -118,7 +118,7 @@ public class WordCRUD implements ICRUD{
             System.out.println("취소되었습니다. ");
         }
 
-        Word word = list.get(idlist.get(id - 1));
+        //Word word = list.get(idlist.get(id - 1));
 
     }
     
@@ -162,13 +162,13 @@ public class WordCRUD implements ICRUD{
     }
 
     public void searchLevel() {
-        System.out.println("=>원하는 레벨은? (1~3) ");
+        System.out.print("=>원하는 레벨은? (1~3) ");
         int level = s.nextInt();
         listAll(level);
     }
 
     public void searchWord() {
-        System.out.println("=>내가 원하는 단어는? ");
+        System.out.print("=>내가 원하는 단어는? ");
         String keyword = s.next();
         listAll(keyword);
     }
